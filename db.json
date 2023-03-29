@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan NUEVO!",
+      "email": "correo2@correo.com",
+      "telefono": "12",
+      "empresa": "12212",
+      "id": 26
+    },
+    {
+      "nombre": "Agustin Palma",
+      "email": "agustin@correo.com",
+      "telefono": "986499545",
+      "empresa": "123456",
+      "id": 27
+    },
+    {
+      "name": "Denisse Silva Troncoso",
+      "email": "denisse@gmail.com",
+      "phone": "1111111",
+      "company": "Moda 2023 Inc",
+      "id": 28
+    }
+  ]
+}

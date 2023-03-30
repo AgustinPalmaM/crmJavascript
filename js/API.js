@@ -36,3 +36,13 @@ export const deleteCustomer = async (id) => {
     console.log(error);
   }
 }
+
+export const getCustomer = async id => {
+  try {
+    const response = await fetch(`${url}/${id}`)
+    const customer = await response.json();
+    return customer;
+  } catch (error) {
+    console.log(error);
+  }
+}

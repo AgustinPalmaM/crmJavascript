@@ -1,7 +1,6 @@
 import { getCustomers } from "./js/API.js";
 import { deleteCustomer } from "./js/API.js";
 
-
 (function () {
   const customerList = document.querySelector("#listado-clientes");
 

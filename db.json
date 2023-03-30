@@ -20,20 +20,6 @@
       "phone": "1111111",
       "company": "Moda 2023 Inc",
       "id": 28
-    },
-    {
-      "name": "Rayito Palma",
-      "email": "rayito@gmail.com",
-      "phone": "987654321",
-      "company": "Regodiones S.A",
-      "id": 29
-    },
-    {
-      "name": "test",
-      "email": "test@test.com",
-      "phone": "121212",
-      "company": "test s.a",
-      "id": 30
     }
   ]
 }

@@ -26,3 +26,13 @@ export const getCustomers = async () => {
     console.log(error);
   }
 }
+
+export const deleteCustomer = async (id) => {
+  try {
+      await fetch(`${url}/${id}`, {
+        method: 'DELETE'
+      });
+  } catch (error) {
+    console.log(error);
+  }
+}

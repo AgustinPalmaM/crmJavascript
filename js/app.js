@@ -1,9 +1,12 @@
 import { getCustomers } from "./API.js";
+import { deleteCustomer } from "./API.js";
 
 (function () {
   const customerList = document.querySelector("#listado-clientes");
 
   document.addEventListener("DOMContentLoaded", showCustomers);
+
+  customerList.addEventListener( 'click', confirmDeleteAction );
 
   async function showCustomers() {
     const customers = await getCustomers();
@@ -28,5 +31,18 @@ import { getCustomers } from "./API.js";
             `;
       customerList.appendChild(row);
     });
+  }
+
+  function confirmDeleteAction(e) {
+    
+    if(e.target.classList.contains('eliminar')) {
+      const customerId = parseInt(e.target.dataset.cliente);
+      
+      const confirmation = confirm('are you sure to delete customer?');
+
+      if(confirmation) {
+        deleteCustomer(customerId);
+      }
+    }
   }
 })();

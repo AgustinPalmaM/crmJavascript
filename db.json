@@ -1,13 +1,6 @@
 {
   "clientes": [
     {
-      "name": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "phone": "12",
-      "company": "12212",
-      "id": 26
-    },
-    {
       "name": "Agustin Palma",
       "email": "agustin@correo.com",
       "phone": "986499545",
@@ -20,6 +13,20 @@
       "phone": "957789675",
       "company": "Moda 2023 Inc",
       "id": 28
+    },
+    {
+      "name": "Copo Nardo",
+      "email": "coponardo@gmail.com",
+      "phone": "7777777",
+      "company": "Copo Nardo Inc",
+      "id": 29
+    },
+    {
+      "name": "Watili Psicopata",
+      "email": "watilimon@gmail.com",
+      "phone": "7887237832",
+      "company": "Longaniza S.A",
+      "id": 30
     }
   ]
 }

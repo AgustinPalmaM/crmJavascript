@@ -1,17 +1,17 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
+      "name": "Juan NUEVO!",
       "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
+      "phone": "12",
+      "company": "12212",
       "id": 26
     },
     {
-      "nombre": "Agustin Palma",
+      "name": "Agustin Palma",
       "email": "agustin@correo.com",
-      "telefono": "986499545",
-      "empresa": "123456",
+      "phone": "986499545",
+      "company": "123456",
       "id": 27
     },
     {
@@ -20,6 +20,20 @@
       "phone": "1111111",
       "company": "Moda 2023 Inc",
       "id": 28
+    },
+    {
+      "name": "Rayito Palma",
+      "email": "rayito@gmail.com",
+      "phone": "987654321",
+      "company": "Regodiones S.A",
+      "id": 29
+    },
+    {
+      "name": "test",
+      "email": "test@test.com",
+      "phone": "121212",
+      "company": "test s.a",
+      "id": 30
     }
   ]
 }

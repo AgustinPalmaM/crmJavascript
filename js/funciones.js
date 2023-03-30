@@ -20,3 +20,7 @@ export function showAlert(message) {
 
 
 }
+
+export function validate(object) {
+  return !Object.values(object).every(input => input !== '');
+}

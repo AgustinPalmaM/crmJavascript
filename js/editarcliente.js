@@ -1,4 +1,5 @@
-import { getCustomer } from "./API.js";
+import { getCustomer, updateCustomer } from "./API.js";
+import { validate, showAlert } from "./funciones.js";
 
 (function () {
   
@@ -17,7 +18,8 @@ import { getCustomer } from "./API.js";
 
     showCustomer(customer);
     
-
+    const form = document.querySelector('#formulario');
+    form.addEventListener('submit', validateCustomerData );
     
 
   })
@@ -31,6 +33,26 @@ import { getCustomer } from "./API.js";
     companyInput.value = company;
     idInput.value = id;
 
+  }
+
+  function validateCustomerData(e) {
+    
+    e.preventDefault();
+
+    const customer = {
+      name: nameInput.value,
+      email: emailInput.value,
+      phone: phoneInput.value,
+      company: companyInput.value,
+      id: parseInt(idInput.value)
+    }
+
+    if(validate(customer)) {
+      showAlert('you must complete all fields');
+      return;
+    }
+
+    updateCustomer(customer);
   }
 
 })();

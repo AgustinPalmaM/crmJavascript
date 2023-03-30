@@ -1,5 +1,5 @@
 import { newCustomer } from "./API.js";
-import { showAlert } from "./funciones.js";
+import { showAlert, validate } from "./funciones.js";
 
 (function() {
   const form = document.querySelector('#formulario');
@@ -28,10 +28,6 @@ import { showAlert } from "./funciones.js";
 
     newCustomer(customer);
 
-  }
-
-  function validate(object) {
-    return !Object.values(object).every(input => input !== '');
   }
 
  
